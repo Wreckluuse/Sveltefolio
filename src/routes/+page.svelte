@@ -1,5 +1,6 @@
 <script>
 	import Navigation from '$lib/Navigation.svelte';
+	import Carousel from '$lib/Carousel.svelte';
 </script>
 
 <svelte:head>
@@ -7,6 +8,7 @@
 </svelte:head>
 <body>
 	<Navigation />
+	<Carousel />
 </body>
 
 <style>
